@@ -5,17 +5,16 @@ let count = 0;
 
 function increment() {
     count += 1;
-    countEL.innerText = count;
+    countEL.textContent = count;
 }
 
 function save() {
     console.log(count);
-    let saveCount = count + "-";
-    saveEL.innerText += saveCount;
+    let saveCount = count + " - ";
+    saveEL.textContent += saveCount;
+    countEL.textContent = 0
+    count = 0
 }
 
-function reset() {
-    count = 0; 
-    countEL.innerText = count; 
-    
-}
+
+

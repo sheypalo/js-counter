@@ -53,10 +53,6 @@ button {
     background: darkgreen;
 }
 
-#reset-btn {
-    background: rgb(40, 40, 40);
-}
-
 .cont-1 {
     height: 100vh;
     display: flex;
