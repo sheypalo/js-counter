@@ -1,6 +1,5 @@
 let saveEL = document.getElementById("save-el");
 let countEL = document.getElementById("count-el");
-let resetEL = document.getElementById("reset-btn");
 let count = 0;
 
 function increment() {
